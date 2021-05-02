@@ -33,6 +33,7 @@ html, body {
 
 .container {
   display: block;
+  text-align: justify;
   padding: 3em;
 }
 
@@ -59,19 +60,20 @@ html, body {
   box-shadow: 2px 2px 3px #999;
   margin-top: 22px;
 }
-/* 
-footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
 
-  
-  height: 50px;
-  right: 0px;
-  margin-bottom: 0px;
-} */
+.navigation {
+  text-align: center;
+  font-size: x-large;
+}
+
+.navigation li {
+  display: inline-block;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: var(--font-color);
+}
 
 footer{
   bottom:0;
